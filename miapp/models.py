@@ -24,4 +24,4 @@ class Servicio(models.Model):
         unique_together = ('identificacion', 'servicio')
 
     def __str__(self):
-        return f"{self.servicio} for {self.identificacion}"
+        return f"{self.servicio} for {self.identificacion}" 
