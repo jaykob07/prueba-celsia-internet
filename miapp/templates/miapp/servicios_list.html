@@ -1,0 +1,7 @@
+<h1>Servicios</h1>
+<ul>
+    {% for servicio in servicios %}
+        <li>{{ servicio.servicio }} para {{ servicio.identificacion }}</li>
+    {% endfor %}
+</ul>
+<a href="{% url 'servicio_create' %}">Agregar Servicio</a>
